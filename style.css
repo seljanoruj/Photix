@@ -1,0 +1,392 @@
+.camera {
+  cursor: pointer;
+  width: 100%;
+  height: 60vh;
+}
+
+.camera .img {
+  width: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
+.camera .img:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.camera .img img {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0.6;
+}
+
+.camera .img .text {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.camera .img .text h1 {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .text {
+  width: 50%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 80px;
+}
+
+footer .text h1 {
+  margin: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+footer .icons {
+  width: 50%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .icons .icon {
+  margin-right: 80px;
+  width: 50%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .icons .icon i {
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+footer .icons .icon i:hover {
+  color: red;
+}
+
+.tree {
+  width: 100%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.tree .img {
+  width: 55%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tree .text {
+  background-color: black;
+  width: 45%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 40px;
+}
+
+.tree .text .text1 {
+  width: 70%;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.tree .text .text1 h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.tree .text .text2 {
+  width: 70%;
+  height: 40vh;
+}
+
+.tree .text .text2 h2 {
+  margin: 0;
+  line-height: 2;
+  font-size: 15px;
+  color: grey;
+}
+
+.boxes {
+  width: 100%;
+  height: 40vh;
+  background-image: url(/img/kafel.jpeg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+.boxes .box {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 20%;
+  height: 20vh;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxes .box h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.boxes .box h2 {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.photos {
+  width: 100%;
+  height: 58vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.photos .photo {
+  width: 100%;
+  height: 58vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.photos .photo:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.photos .photo img {
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.photos .photo .text {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.photos .photo .text h1 {
+  font-size: 15px;
+  color: white;
+}
+
+.photos .photo .text p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.photos .photo:hover p {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+
+header .nav-link {
+  color: white !important;
+}
+
+header .active {
+  color: red !important;
+}
+
+.firstsection {
+  width: 100%;
+  height: 100vh;
+}
+
+.firstsection .carousel {
+  width: 100%;
+  height: 100vh;
+}
+
+.firstsection .carousel .firstslider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.firstsection .carousel .firstslider .text {
+  left: 180px;
+  top: 250px;
+  position: absolute;
+  width: 20%;
+  height: 30%;
+}
+
+.firstsection .carousel .firstslider .text h1 {
+  font-size: 30px;
+  color: white;
+  border-bottom: 1px solid red;
+  line-height: 2;
+}
+
+.firstsection .carousel .firstslider .text h2 {
+  line-height: 2;
+  font-size: 15px;
+  color: #ccc;
+  font-weight: 200;
+}
+/*# sourceMappingURL=style.css.map */
